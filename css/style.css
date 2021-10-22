@@ -29,6 +29,17 @@ html {
     margin: 0 auto;
 }
 
+/* position */
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.fixes {
+    position: fixed;
+}
+
 /* links */
 a {
     text-decoration: none;
@@ -37,6 +48,10 @@ a:hover,
 a:active,
 a:focus {
     text-decoration: underline;
+}
+
+a:visited {
+    color: inherit;
 }
 
 a.link {
@@ -52,13 +67,13 @@ a.link {
 }
 .row .col {
     float: left;
+    border: 1px solid red;
 }
 
 /* menu */
 .menu-inline,
 .menu-vertical {
     list-style: none;
-    line-height: inherit;
 }
 .menu-inline li{
     display: inline-block;
@@ -67,11 +82,17 @@ a.link {
 }
 
 /* buttons */
+a.btn {
+    padding: 0.3em 1.2em;
+}
+a.btn-wide {
+    padding: ();
+}
+
 a.btn:hover,
 a.btn:active,
 a.btn:focus {
-    filter: opacity(0.5);
-  /* text-decoration: none; DA VERIFICARE */ 
+    filter: opacity(0.8);
 }
 a.btn-blue {
     background-color: var(--blue-color);
@@ -84,13 +105,16 @@ a.btn-white {
 
 /* logo */
 .logo {
-    vertical-align: middle;
+    vertical-align: sub;
 }
 
 /* Utilities */
 /* Text */
 .text-right {
     text-align: right;
+}
+.text-left {
+    text-align: left
 }
 .text-center {
     text-align: center;
@@ -108,6 +132,9 @@ a.btn-white {
 }
 .width-1-3 {
     width: calc(100% / 3);
+}
+.width-35 {
+    width: 35%;
 }
 .width-40 {
     width: 40%;
@@ -151,4 +178,21 @@ a.btn-white {
 }
 .bg-black {
     background-color: black;
+}
+
+/* header */
+/* nav */
+/* nav {
+    line-height: 4em;
+} */
+
+nav .menu-inline .nav-link {
+    line-height: 4em;
+    display: block;
+    padding: 0 1.2em;
+    font-weight: bold;
+}
+
+nav .menu-inline .nav-link:hover {
+    border-bottom: 2px solid darkblue;
 }
