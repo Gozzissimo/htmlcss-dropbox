@@ -18,13 +18,13 @@ html {
 
 /* common */
 /* containers */
-.container-90 {
-    width: 90%;
+.container-80 {
+    width: 80%;
     max-width: 1280px;
     margin: 0 auto;
 }
-.container-80 {
-    width: 80%;
+.container-70 {
+    width: 70%;
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -36,7 +36,7 @@ html {
 .absolute {
     position: absolute;
 }
-.fixes {
+.fixed {
     position: fixed;
 }
 
@@ -83,7 +83,7 @@ a.btn {
     padding: 0.3em 1.2em;
 }
 a.btn-wide {
-    padding: ();
+    padding: 0.3em 2em;
 }
 
 a.btn:hover,
@@ -168,6 +168,9 @@ a.btn-white {
 .pdt-3 {
     padding-top: 3%;
 }
+.pdtb-8 {
+    padding: 8% 0;
+}
 
 /* Colors */
 .bg-light-blue {
@@ -176,26 +179,31 @@ a.btn-white {
 .bg-black {
     background-color: black;
 }
+.bg-white {
+    background-color: white;
+}
+
+/* viewport */
+.vp {
+    height: 100vh;
+}
 
 /* header */
 /* nav */
-/* nav {
-    line-height: 4em;
-} */
-
+nav {
+    top: 0;
+}
 nav .menu-inline .nav-link {
     line-height: 4em;
     display: block;
     margin: 0 1.2em;
     font-weight: bold;
 }
-
 nav .menu-inline .nav-link:hover {
     border-bottom: 2px solid darkblue;
 }
 
 /* jumbotron */
-.jumbotron {
-    height: 400px;
-    padding: 3em;
+.jumbotron h1 {
+    font-size: 4.5em;
 }
