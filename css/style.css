@@ -1,0 +1,154 @@
+:root {
+    --blue-color: #3B85FF;
+    --light-blue-color: #B4D0E7;
+    --light-grey-color: #F5F5F5;
+    --purple-color-: #61082B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+
+/* common */
+/* containers */
+.container-90 {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.container-80 {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* links */
+a {
+    text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+    text-decoration: underline;
+}
+
+a.link {
+    color: var(--blue-color);
+    text-decoration: underline;
+}
+
+/* Cols */
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.row .col {
+    float: left;
+}
+
+/* menu */
+.menu-inline,
+.menu-vertical {
+    list-style: none;
+    line-height: inherit;
+}
+.menu-inline li{
+    display: inline-block;
+}
+.menu-vertical li {
+}
+
+/* buttons */
+a.btn:hover,
+a.btn:active,
+a.btn:focus {
+    filter: opacity(0.5);
+  /* text-decoration: none; DA VERIFICARE */ 
+}
+a.btn-blue {
+    background-color: var(--blue-color);
+    color: white;
+}
+a.btn-white {
+    background-color: white;
+    color: black;
+}
+
+/* logo */
+.logo {
+    vertical-align: middle;
+}
+
+/* Utilities */
+/* Text */
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+
+/* Width */
+.width-20 {
+    width: 20%;
+}
+.width-25 {
+    width: 25%
+}
+.width-30 {
+    width: 30%;
+}
+.width-1-3 {
+    width: calc(100% / 3);
+}
+.width-40 {
+    width: 40%;
+}
+.width-50 {
+    width: 50%;
+}
+.width-60 {
+    width: 60%;
+}
+.width-70 {
+    width: 70%;
+}
+.width-100 {
+    width: 100%;
+}
+
+/* Paddings */
+.pdl-2 {
+    padding-left: 2%;
+}
+.pdl-6 {
+    padding-left: 6%;
+}
+.pdr-6 {
+    padding-right: 6%;
+}
+.pdb-3 {
+    padding-bottom: 3%;
+}
+.pdb-4 {
+    padding-bottom: 4%;
+}
+.pdt-3 {
+    padding-top: 3%;
+}
+
+/* Colors */
+.bg-light-blue {
+    background-color: var(--light-blue-color));
+}
+.bg-black {
+    background-color: black;
+}
