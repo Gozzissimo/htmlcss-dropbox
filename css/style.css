@@ -44,12 +44,6 @@ html {
 a {
     text-decoration: none;
 }
-a:hover,
-a:active,
-a:focus {
-    text-decoration: underline;
-}
-
 a:visited {
     color: inherit;
 }
@@ -67,7 +61,10 @@ a.link {
 }
 .row .col {
     float: left;
-    border: 1px solid red;
+}
+
+.row .col-r {
+    float: right;
 }
 
 /* menu */
@@ -174,7 +171,7 @@ a.btn-white {
 
 /* Colors */
 .bg-light-blue {
-    background-color: var(--light-blue-color));
+    background-color: var(--light-blue-color);
 }
 .bg-black {
     background-color: black;
@@ -189,10 +186,16 @@ a.btn-white {
 nav .menu-inline .nav-link {
     line-height: 4em;
     display: block;
-    padding: 0 1.2em;
+    margin: 0 1.2em;
     font-weight: bold;
 }
 
 nav .menu-inline .nav-link:hover {
     border-bottom: 2px solid darkblue;
+}
+
+/* jumbotron */
+.jumbotron {
+    height: 400px;
+    padding: 3em;
 }
