@@ -81,9 +81,11 @@ a.link {
 /* buttons */
 a.btn {
     padding: 0.3em 1.2em;
+    display: inline-block;
 }
 a.btn-wide {
     padding: 0.3em 2em;
+    display: inline-block;
 }
 
 a.btn:hover,
@@ -206,4 +208,14 @@ nav .menu-inline .nav-link:hover {
 /* jumbotron */
 .jumbotron h1 {
     font-size: 4.5em;
+}
+.jumbotron p {
+    padding-bottom: 2em;
+}
+.jumbotron a.btn-wide {
+    margin: 1em 0;
+}
+.jumbotron i {
+    font-size: 3em;
+    color: black;
 }
