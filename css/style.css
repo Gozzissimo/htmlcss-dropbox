@@ -194,6 +194,7 @@ a.btn-white {
 nav {
     top: 0;
     left: 0;
+    z-index: 1;
 }
 nav .menu-inline .nav-link {
     line-height: 4em;
