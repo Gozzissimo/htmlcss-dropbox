@@ -29,6 +29,14 @@ html {
     margin: 0 auto;
 }
 
+/* Titles */
+h3 {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 2.5em;
+}
+
 /* position */
 .relative {
     position: relative;
@@ -66,6 +74,9 @@ a.link {
 .row .col-r {
     float: right;
 }
+.col-center {
+    margin: 0 3em;
+}
 
 /* menu */
 .menu-inline,
@@ -75,8 +86,6 @@ a.link {
 .menu-inline li{
     display: inline-block;
 }
-/* .menu-vertical li {
-} */
 
 /* buttons */
 a.btn {
@@ -259,7 +268,6 @@ main .radio {
 .plans .plan-sub,.plan {
     border: 1px solid lightgray;
     padding: 1.5em 2em;
-    margin: 0 1em;
     border: 1px solid lightgray;
 }
 .plans .col {
@@ -271,9 +279,6 @@ main .radio {
 }
 .col.plan {
     min-height: 1200px;
-}
-.plan .title {
-    font-size: 1.5em;
 }
 .plan .price {
     font-size: 1.2em;
@@ -310,16 +315,13 @@ main .radio {
 
 /* partner */
 .partner {
-    padding: 10em 1em;
+    padding: 8em 0;
 }
 .partner img {
     width: 100%;
 }
 .partner .btn {
     border: 1px solid grey
-}
-.partner .partner-title {
-    font-size: 1.5em;
 }
 .partner-text * {
     padding: 3% 4% ;
