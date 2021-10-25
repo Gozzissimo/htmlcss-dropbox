@@ -307,3 +307,20 @@ main .radio {
 .enterprise h4 {
     margin: 1em 0;
 }
+
+/* partner */
+.partner {
+    padding: 10em 1em;
+}
+.partner img {
+    width: 100%;
+}
+.partner .btn {
+    border: 1px solid grey
+}
+.partner .partner-title {
+    font-size: 1.5em;
+}
+.partner-text * {
+    padding: 3% 4% ;
+}
