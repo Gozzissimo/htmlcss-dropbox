@@ -193,6 +193,7 @@ a.btn-white {
 /* nav */
 nav {
     top: 0;
+    left: 0;
 }
 nav .menu-inline .nav-link {
     line-height: 4em;
@@ -221,3 +222,11 @@ nav .menu-inline .nav-link:hover {
 .jumbo-img {
     width: 100%;
 }
+
+/* .plan-type-col .plan-main::after {
+    content: '';
+    width: 20%;
+    height: 1px;
+    background-color: #D8D8DA;
+    margin: 2em 0;
+} */
