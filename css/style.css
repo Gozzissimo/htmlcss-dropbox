@@ -336,15 +336,33 @@ main .radio {
 /* customers */
 .cube img {
     width: 50%;
-    height: 295px;
+    height: 309px;
     object-fit: contain;
     filter: invert();
     margin: 0 auto;
     display: block;
 }
 .cube {
-    width: 295px;
-    height: 295px;
+    width: 50%;
+    height: 309px;
+}
+.cube-text {
+    padding: 4%;
+    height: 618px;
+}
+.img-text img {
+    width: 25%;
+}
+.customers .img-text::after {
+    display: block;
+    content: '';
+    width: 20%;
+    height: 1px;
+    background-color: lightgray;
+    margin: 2em 0;
+}
+.customers .text .main, .signature {
+padding: 2em 0;
 }
 .red {
     background-color: red;
