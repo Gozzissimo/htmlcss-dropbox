@@ -334,17 +334,18 @@ main .radio {
 }
 
 /* customers */
-.customers .cube .img {
+.cube img {
+    width: 50%;
+    height: 295px;
     object-fit: contain;
+    filter: invert();
+    margin: 0 auto;
+    display: block;
 }
 .cube {
-    width: 50%;
-    height: 50%;
+    width: 295px;
+    height: 295px;
 }
-.cube-line {
-    height: 50%;
-}
-
 .red {
     background-color: red;
 }
@@ -356,4 +357,13 @@ main .radio {
 }
 .blue {
     background-color: #0093ce;
+}
+.dark-blue {
+    background-color: #0d2481;
+}
+.yellow {
+    background-color: #ffd830;
+}
+.bg-grey {
+    background-color: #F5F5F5;
 }
