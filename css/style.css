@@ -95,6 +95,9 @@ a.btn {
 a.btn-wide {
     padding: 0.3em 2em;
 }
+a.btn-ultra-wide {
+    padding: 0.3em 4em;
+}
 
 a.btn:hover,
 a.btn:active,
@@ -384,4 +387,18 @@ padding: 2em 0;
 }
 .bg-grey {
     background-color: #F5F5F5;
+}
+
+/* call to action */
+.call-to-action {
+    padding: 8% 0;
+}
+.call-to-action .col {
+    padding: 0 4%;
+}
+.bordeaux-title {
+    color: #61082b;
+}
+.call-to-action .btn {
+    right: 0;
 }
