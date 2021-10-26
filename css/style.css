@@ -334,3 +334,26 @@ main .radio {
 }
 
 /* customers */
+.customers .cube .img {
+    object-fit: contain;
+}
+.cube {
+    width: 50%;
+    height: 50%;
+}
+.cube-line {
+    height: 50%;
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: #a2d39b;
+}
+.bordeaux {
+    background-color: #61082b;
+}
+.blue {
+    background-color: #0093ce;
+}
