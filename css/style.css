@@ -392,14 +392,55 @@ padding: 2em 0;
 
 /* call to action */
 .call-to-action {
-    padding: 8% 0;
-}
-.call-to-action .col {
-    padding: 0 4%;
+    padding: 8em 0;
 }
 .bordeaux-title {
     color: #61082b;
 }
 .call-to-action .btn {
     right: 0;
+}
+
+
+/* faq */
+
+.faqs {
+    padding: 8em 0;
+}
+.faqs .title {
+    padding-bottom: 3em;
+    border-bottom: 1px solid lightgray;
+}
+.faqs .faq {
+    padding: 2em 0;
+    border-bottom: 1px solid lightgray;
+}
+.faq * {
+    display: inline-block;
+}
+.faq .question, .answer {
+    width: 80%;
+}
+.faq .answer {
+    display: none;
+    font-size: 0.9em;
+    color: grey;
+}
+.faq-chevron-down {
+    width: 15%;
+}
+.faq-chevron-up {
+    width: 15%;
+    display: none;
+}
+
+.faq:hover .answer {
+    display: inline-block;
+    padding: 1em 0;
+}
+.faq:hover .faq-chevron-down {
+    display: none;
+}
+.faq:hover .faq-chevron-up {
+    display: inline-block;
 }
